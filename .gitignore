@@ -1,0 +1,39 @@
+# Raw and processed data files
+data/
+data/raw/*
+data/processed/*
+data/external/*
+
+# Jupyter Notebook checkpoint files
+*.ipynb_checkpoints
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.sqlite
+
+# Jupyter Notebook outputs
+*.out
+*.pyc
+*.pyo
+
+# Output or reports
+reports/*
+figures/*
+drafts/*
+
+# PostgreSQL database dumps
+*.sql
+*.dump
+
+# PostgreSQL log files
+*.log
+
+# VSCode-specific files
+.vscode/
+
+#macOS-specific system file that stores folder settings
+.DS_Store

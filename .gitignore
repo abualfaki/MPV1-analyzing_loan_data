@@ -7,6 +7,9 @@ data/external/*
 # Jupyter Notebook checkpoint files
 *.ipynb_checkpoints
 
+#temp files
+temp_files/
+
 # Temporary files
 *.log
 *.tmp

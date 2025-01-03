@@ -1,8 +1,5 @@
-# Raw and processed data files
-data/
-data/raw/*
-data/processed/*
-data/external/*
+# Raw, processed, external data files
+data/*
 
 # Track download_data_instructions.md and readme.md
 !data/download_data_instructions.md

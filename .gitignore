@@ -4,6 +4,10 @@ data/raw/*
 data/processed/*
 data/external/*
 
+# Track download_data_instructions.md and readme.md
+!data/download_data_instructions.md
+!data/README.md
+
 # Jupyter Notebook checkpoint files
 *.ipynb_checkpoints
 

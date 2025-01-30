@@ -1,13 +1,23 @@
 # Ignore all files in data/ but keep the folder structure
 data/*
+
+# But do not Ignore files raw, interim, processed, external folders
 !data/raw/
 !data/processed/
 !data/interim/
+!dat/external/
 
-# Ignore files inside those folders but keep the directories
+# Ignore all files inside these folders
 data/raw/*
-data/processed/*
 data/interim/*
+data/processed/*
+data/external/*
+
+# But do not ignore .gitkeep files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+!dat/external/.gitkeep
 
 # Track download_data_instructions.md and readme.md
 !data/download_data_instructions.md

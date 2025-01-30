@@ -1,5 +1,13 @@
-# Raw, processed, external data files
+# Ignore all files in data/ but keep the folder structure
 data/*
+!data/raw/
+!data/processed/
+!data/interim/
+
+# Ignore files inside those folders but keep the directories
+data/raw/*
+data/processed/*
+data/interim/*
 
 # Track download_data_instructions.md and readme.md
 !data/download_data_instructions.md

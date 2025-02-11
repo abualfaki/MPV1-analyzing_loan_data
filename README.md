@@ -100,9 +100,11 @@ The dataset was sourced from Kaggle and includes loan records from **2007 to Q2 
   - Used **Fuzzy Matching Algorithm** to detect and correct errors efficiently.
 - **Data size**: The dataset contained **2 million rows**, requiring optimized processing and cleaning strategies.
 - **Loan purpose inconsistencies**: Borrowers entered varying descriptions for similar loan purposes, requiring **categorization standardization**.
+- In the column stating the joib title applications there job titles that are names of companies which may not help if we decide to use this as a feautre for a credit risk model. This error will take time to fix as there are 2 million rows in the dataset.
 
 ---
 
 ## **Next Steps**
 - Add credit risk model to identify current borrowers at risk of potentially defaulting on their loan.
+
 

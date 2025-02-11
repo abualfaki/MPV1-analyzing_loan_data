@@ -38,7 +38,7 @@ This project focuses on analyzing **LendingClub.com**'s loan data to identify ke
 
 ---
 ## **Recommendations**
-1. **Enhance Underwriting by Incorporating DTI**  
+1. **Enhance Underwriting by Incorporating Debt to Income Ratio during underwriting**  
    - Including **Debt-to-Income ratio** in the credit decision-making process can help prevent issuing loans to borrowers who may struggle with repayments.
    
 2. **Target High-Quality Borrowers for Lower Default Risk**  

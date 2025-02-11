@@ -1,0 +1,5 @@
+Dependencies
+To run this project, ensure the following dependencies are installed:
+
+```bash
+pip install pandas numpy matplotlib seaborn fuzzywuzzy psycopg2-binary ipython-sql jupyter

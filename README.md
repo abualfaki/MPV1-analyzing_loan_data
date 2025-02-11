@@ -14,6 +14,7 @@ Analyzing the customer segments of **LendingClub.com**, a peer-to-peer lending p
 - [Cleaning & Processing](#cleaning--processing)
 - [Analysis & Insights](#analysis--insights)
 - [Challenges](#challenges)
+- [Project Folder Structure](#project-folder-structure)
 - [Next Steps](#nextstep)
 
 
@@ -104,6 +105,48 @@ The dataset was sourced from Kaggle and includes loan records from **2007 to Q2 
 
 ---
 
+## **Project Folder Structure**
+```MPV1-analyzing_loan_data/ 
+│── data/ # Raw and processed data files │
+  ├── raw/ # Unprocessed data (original datasets) 
+  ├── processed/ # Cleaned and transformed datasets
+  ├── external/ # Datasets from other sources
+  ├── interim/ # Temporary Datasets
+  ├── download_data_instructions.md #instructions to download raw data
+  ├── README.md #explains what the contents of data folder
+
+│── docs/
+  │── project_docs/ #Documentations of project
+  │── README.md #explains what the contents of doc folder
+
+│── notebooks/
+  ├── data_cleaning/ #Scripts for cleaning datasets
+      ├── accepted_loans_data_cleaning.ipynb
+      ├── cleaning_rejected_loans_df.ipynb
+
+  ├── EDA/ #scripts for Exploratory Data Analysis
+      ├── exploratory_data_analysis.ipynb
+
+  ├── README.md #explains contents of notebooks folder
+
+├── References #Contains references to data sources
+  ├── README.md #explains contents of References folder
+  ├── sources.md # Sources of references
+
+├── Reports # Contains reports, docs and figures for stakeholders
+  ├── drafs/
+  ├── figures/
+  ├── final_reports/
+  ├──README.md #explains contents of Reports folder
+
+├── temp_files #Stores temporary files used while cleaning and performing EDA
+
+├── tests #Scripts for performing tests
+
+├── README.md #Explains project overview, projects goal and insights gained from Customer Segmentation Analysis
+```
+
+---
 ## **Next Steps**
 - Add credit risk model to identify current borrowers at risk of potentially defaulting on their loan.
 

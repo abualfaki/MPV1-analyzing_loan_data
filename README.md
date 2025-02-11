@@ -23,9 +23,18 @@ This project focuses on analyzing **LendingClub.com**'s loan data to identify ke
 
 ### **Key Insights**
 - **31%** of LendingClub’s borrowers earn **$50,000 - $75,000** annually, while **26%** earn **$25,000 - $50,000**.
+  <p align="left">
+  <img src="https://i.gyazo.com/ee45e58d3a89fed98af23c653652fdd5.png" width="700" height="525" alt="Alt text">
+   </p>
 - Borrowers earning **$50,000 - $75,000** have an **18.5% charge-off rate**, whereas those earning **$200,000 - $500,000** have a lower **14.1% charge-off rate**.
-- Debt-to-Income (DTI) ratio was not considered in underwriting, potentially leading to riskier loan issuances.
+  <p align="left">
+  <img src="https://i.gyazo.com/7705b3cc2c9db8ad0f7c591b61423c37.png" width="700" height="525" alt="Alt text">
+   </p>
 - The majority of LendingClub’s borrowers reside in **California (13.9%)**, **New York (8.2%)**, **Texas (8.2%)**, and **Florida (7.2%)**, presenting key areas for marketing efforts.
+  <p align="left">
+  <img src="https://i.gyazo.com/95d8b77f8de2932c61bc118119a71761.png" width="700" height="525" alt="Alt text">
+   </p
+- Debt-to-Income (DTI) ratio was not considered in underwriting, potentially leading to riskier loan issuances.
 
 ---
 ## **Recommendations**

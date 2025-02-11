@@ -71,7 +71,7 @@ The dataset was sourced from Kaggle and includes loan records from **2007 to Q2 
 [View dataset on Kaggle](https://www.kaggle.com/code/faressayah/lending-club-loan-defaulters-prediction)
 
 ### **Cleaning & Processing**
-- Cleaned a **2 million-row dataset with 151 features**, handling missing values, outliers, and datatype conversions.
+- Cleaned a **2 million-row dataset with 151 features**, handling missing values, identifying outliers in numeric columns, and datatype conversions.
 - Used **Fuzzy Matching Algorithm** to automatically correct misspelled job titles, reducing data cleaning time from **weeks to 7 minutes**.
 - Identified borrowers' **loan purposes** and corrected inconsistencies in user-inputted categories.
 

@@ -33,7 +33,7 @@ This project focuses on analyzing **LendingClub.com**'s loan data to identify ke
    - Including **Debt-to-Income ratio** in the credit decision-making process can help prevent issuing loans to borrowers who may struggle with repayments.
    
 2. **Target High-Quality Borrowers for Lower Default Risk**  
-   - Focus on borrowers earning **$200,000 - $500,000**, as they have a lower **14.1% charge-off rate** compared to middle-income earners.
+   - Focus on borrowers earning **$200,000 - $500,000**, as they have a lower **14.1% charge-off rate** compared to middle-income earners who have a charge of rate of 18.5%
 
 3. **Refine Marketing Strategies Based on Geography**  
    - Prioritize **California, New York, Texas, and Florida**, where most borrowers are located, to improve customer acquisition efficiency.

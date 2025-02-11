@@ -14,10 +14,10 @@ data/processed/*
 data/external/*
 
 # But do not ignore .gitkeep files
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/interim/.gitkeep
-!dat/external/.gitkeep
+!data/raw/.gitignore
+!data/processed/.gitignore
+!data/interim/.gitignore
+!dat/external/.gitignore
 
 # Track download_data_instructions.md and readme.md
 !data/download_data_instructions.md
